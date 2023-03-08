@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800&amp;subset=latin-ext" rel="stylesheet">
+	<link href="css/logo.css" type="text/css" rel="stylesheet"/>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+	<div id="container">
+		<a href="index.html">
+		<div id="logo">
+			<h1>Matcha <span>Time</span></h1>
+		</div>
+		</a>
+		<div id="menu">
+			<a href="contact.html"><div class="option" id="specialoption">Contact</div></a>
+			<a href="about_me.html"><div class="option">About Me</div></a>
+			<a href="ss.html"><div class="option">Video</div></a>
+			<a href="index.html"><div class="option">Home Page</div></a>
+		</div>
+		<div style="clear: both"></div>
+		
+		<div id="contact-header">
+			Contact
+		</div>
+		
+		<div id="contact-container">
+			<form>
+				<input class="input" type="text" placeholder="First Name" required/>
+				<input class="input" type="text" placeholder="Last Name" required/><br/>
+				<input class="input" type="text" placeholder="email@example.com" required/>
+				<input class="input" type="text" placeholder="Country"/><br/>
+				<input type="radio" >Over 18
+				<input type="checkbox" name="No" > Under 18
+				<br>
+				<select>
+					<option value="Agreed">Yes</option>\
+					<option value="Disagreed">No</option>
+					<br>
+				</select>
+				<br>
+				<label for="avatar">Choose a profile picture:</label> <br>
+				<input type="file"
+				id="avatar" name="avatar"
+				accept="image/png, image/jpeg">
+
+				<textarea>Your message..</textarea>
+				<input id="submit" type="submit" value="Submit"/>
+			<form>
+		</div>
+		
+		<div id="footer">www.matcha.com</div>
+	</div>
+</body>
+</html>
